@@ -1,0 +1,606 @@
+{
+  "metadata": {
+    "title": "Connect Now — Intégration des étudiants étrangers en France",
+    "description": "Le compagnon mobile qui guide les étudiants étrangers dans leurs démarches, les connecte à une communauté de pairs et les accompagne de l'aspiration à l'établissement en France."
+  },
+  "common": {
+    "brand": "Connect Now",
+    "slogan": "We can, Together",
+    "tagline": "Ton guide. Ta communauté. Ta France.",
+    "downloadApp": "Télécharger l'app",
+    "learnMore": "En savoir plus",
+    "comingSoon": "Bientôt disponible",
+    "locale": {
+      "fr": "Français",
+      "en": "English"
+    },
+    "mobileMenu": {
+      "open": "Ouvrir le menu",
+      "close": "Fermer le menu"
+    }
+  },
+  "nav": {
+    "home": "Accueil",
+    "journey": "Parcours",
+    "features": "Fonctionnalités",
+    "whyUs": "Pourquoi Connect Now",
+    "testimonials": "Témoignages",
+    "about": "À propos",
+    "download": "Télécharger",
+    "universities": "Universités"
+  },
+  "stages": {
+    "aspirant": {
+      "label": "L'Aspirant",
+      "shortLabel": "Aspirant",
+      "headline": "Prépare ton projet sans te perdre",
+      "description": "Candidatures, Campus France, Parcoursup, visa — Connect Now t'accompagne avant même ton départ."
+    },
+    "partant": {
+      "label": "Le Partant",
+      "shortLabel": "Partant",
+      "headline": "Tout est validé, il reste l'essentiel",
+      "description": "Logement, banque, assurance — les dernières semaines avant le départ, cartographiées pour toi."
+    },
+    "nouveau": {
+      "label": "Le Nouveau",
+      "shortLabel": "Nouveau",
+      "headline": "Bienvenue — on est là pour les 12 premiers mois",
+      "description": "VLS-TS, CAF, sécurité sociale, réseau — pose tes questions, avance avec ta communauté."
+    },
+    "etabli": {
+      "label": "L'Établi",
+      "shortLabel": "Établi",
+      "headline": "Tu connais le chemin — partage-le",
+      "description": "Deviens mentor, partage ton vécu et aide les nouveaux à réussir leur intégration."
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "Tu n'as pas à naviguer seul.",
+      "subtitle": "Connect Now, c'est l'ami local que tu aurais voulu avoir dès le premier jour.",
+      "cta": "Télécharger gratuitement",
+      "mockupLabel": "Guide · Communauté · Démarches"
+    },
+    "stages": {
+      "eyebrow": "Ton parcours",
+      "title": "Où en es-tu dans ton projet ?",
+      "description": "Connect Now s'adapte à chaque étape — de la préparation de ton dossier à ton rôle de mentor."
+    },
+    "problem": {
+      "eyebrow": "Le constat",
+      "title": "étudiants étrangers. Trois galères en même temps.",
+      "description": "Ces problèmes ne sont pas indépendants — ils se renforcent et créent un sentiment de vulnérabilité au moment le plus critique.",
+      "stat": "étudiants étrangers en France chaque année",
+      "items": {
+        "admin": {
+          "title": "Démarches opaques",
+          "description": "CAF, sécurité sociale, titre de séjour, CVEC — un labyrinthe incompréhensible sans repères locaux."
+        },
+        "isolation": {
+          "title": "Isolement dès l'arrivée",
+          "description": "Sans réseau, sans pairs de confiance, sans savoir à qui poser les petites questions qui bloquent tout."
+        },
+        "info": {
+          "title": "Infos dispersées",
+          "description": "Entre sites officiels inaccessibles et groupes WhatsApp saturés, personne ne sait vraiment où chercher."
+        }
+      }
+    },
+    "pillars": {
+      "eyebrow": "La solution",
+      "title": "Trois piliers. Une seule app.",
+      "description": "Connect Now combine ce que personne d'autre ne réunit : utilité, lien humain et crédibilité.",
+      "items": {
+        "guide": {
+          "title": "Guide IA spécialisé",
+          "description": "Nebula connaît les subtilités des démarches françaises pour étudiants étrangers. Pose ta question, obtiens la réponse juste — sans jargon."
+        },
+        "community": {
+          "title": "Communauté de pairs",
+          "description": "Des milliers d'étudiants comme toi qui partagent, s'entraident et avancent ensemble — filtré, fiable, humain."
+        },
+        "journey": {
+          "title": "Parcours personnalisé",
+          "description": "De l'aspiration à l'établissement, une timeline qui s'adapte à ton stade et te rappelle ce qui compte vraiment."
+        }
+      }
+    },
+    "compare": {
+      "eyebrow": "Pourquoi Connect Now",
+      "title": "Pas eux. Nous.",
+      "description": "On ne remplace pas les institutions — on comble ce qu'elles ne couvrent pas.",
+      "columns": {
+        "campusFrance": "Campus France",
+        "whatsapp": "WhatsApp",
+        "chatgpt": "ChatGPT",
+        "connectNow": "Connect Now"
+      },
+      "rows": {
+        "specialized": "Démarches FR spécialisées",
+        "community": "Communauté de pairs",
+        "postArrival": "Accompagnement post-arrivée",
+        "humanVoice": "Voix humaine et vécu",
+        "free": "100% gratuit"
+      },
+      "values": {
+        "yes": "Oui",
+        "no": "Non",
+        "partial": "Partiel",
+        "unreliable": "Non fiable",
+        "generic": "Généraliste",
+        "informal": "Informel",
+        "cold": "Froid"
+      }
+    },
+    "testimonials": {
+      "eyebrow": "Ils en parlent",
+      "title": "Des parcours vrais, des voix vraies",
+      "items": {
+        "aspirant": {
+          "quote": "J'attendais mon visa sans savoir par où commencer. Connect Now m'a donné une checklist claire — j'ai arrêté de paniquer.",
+          "author": "Amara, Sénégal",
+          "stage": "Aspirant"
+        },
+        "nouveau": {
+          "quote": "La CAF, la préfecture, la sécu… j'ai posé mes questions à 23h et j'ai eu une réponse de quelqu'un qui avait vécu la même galère.",
+          "author": "Lin, Chine",
+          "stage": "Nouveau"
+        },
+        "etabli": {
+          "quote": "Aujourd'hui j'aide les nouveaux dans l'app. C'est exactement le compagnon que j'aurais voulu avoir en arrivant.",
+          "author": "Karim, Maroc",
+          "stage": "Établi"
+        }
+      }
+    },
+    "cta": {
+      "title": "Le compagnon que tu aurais voulu avoir dès le jour 1.",
+      "subtitle": "Gratuit. Sans achat intégré. Installe et avance.",
+      "button": "Télécharger Connect Now"
+    }
+  },
+  "pages": {
+    "parcours": {
+      "meta": {
+        "title": "Parcours étudiant — Connect Now",
+        "description": "De l'aspiration à l'établissement : découvre comment Connect Now t'accompagne à chaque étape de ton projet en France."
+      },
+      "hero": {
+        "eyebrow": "Ton parcours",
+        "title": "Quatre stades. Un seul compagnon.",
+        "description": "Peu importe où tu en es — Connect Now adapte son contenu, sa communauté et ses rappels à ton stade exact."
+      },
+      "cta": {
+        "title": "Trouve ton stade dans l'app",
+        "subtitle": "L'onboarding te place au bon endroit dès la première ouverture."
+      }
+    },
+    "stageDetail": {
+      "challengesTitle": "Tes défis à ce stade",
+      "stepsTitle": "Comment Connect Now t'aide",
+      "appTitle": "Dans l'app",
+      "otherStages": "Autres stades",
+      "cta": {
+        "title": "Active ton parcours dans l'app",
+        "subtitle": "Télécharge Connect Now et sélectionne ton stade pour un accompagnement sur mesure."
+      },
+      "aspirant": {
+        "meta": {
+          "title": "L'Aspirant — Prépare ton projet | Connect Now",
+          "description": "Candidatures, Campus France, Parcoursup, visa : Connect Now t'accompagne avant ton départ."
+        },
+        "hero": {
+          "eyebrow": "L'Aspirant",
+          "title": "Prépare ton projet sans te perdre",
+          "description": "Tu construis ton dossier, tu attends ton visa — Connect Now te prépare le terrain pendant cette phase d'attente."
+        },
+        "challenges": {
+          "0": "Comprendre Campus France et les procédures selon ton pays d'origine",
+          "1": "Gérer l'anxiété de l'attente du visa sans savoir si tu oublies une étape",
+          "2": "Trouver des infos fiables sur les études en France, noyé sous les sources contradictoires"
+        },
+        "steps": {
+          "0": "Checklist personnalisée selon ton pays et ton niveau d'études",
+          "1": "Guide IA Nebula pour tes questions sur les procédures pré-départ",
+          "2": "Communauté d'aspirants qui vivent la même attente que toi"
+        },
+        "app": "Dès l'installation, sélectionne « Aspirant » pour débloquer ton parcours pré-départ avec rappels et ressources adaptés."
+      },
+      "partant": {
+        "meta": {
+          "title": "Le Partant — Dernières semaines avant le départ | Connect Now",
+          "description": "Visa obtenu : logement, banque, assurance. Connect Now cartographie tes démarches critiques avant le départ."
+        },
+        "hero": {
+          "eyebrow": "Le Partant",
+          "title": "Tout est validé, il reste l'essentiel",
+          "description": "Les semaines avant le départ sont les plus stressantes. Connect Now les a cartographiées pour que rien ne te surprenne."
+        },
+        "challenges": {
+          "0": "Trouver un logement à distance sans réseau local",
+          "1": "Ouvrir un compte bancaire et souscrire une assurance avant l'arrivée",
+          "2": "Organiser ton arrivée : transport, premier jour, documents à avoir sur soi"
+        },
+        "steps": {
+          "0": "Timeline « X semaines avant le départ » avec priorités claires",
+          "1": "Guides actionnables logement, banque et assurance",
+          "2": "Connexion avec des étudiants déjà sur place dans ta ville d'accueil"
+        },
+        "app": "Passe en mode Partant dans l'app : ta timeline se met à jour avec les démarches critiques à finaliser avant ton vol."
+      },
+      "nouveau": {
+        "meta": {
+          "title": "Le Nouveau — Tes 12 premiers mois | Connect Now",
+          "description": "VLS-TS, CAF, sécurité sociale, réseau : Connect Now t'accompagne pendant tes 12 premiers mois en France."
+        },
+        "hero": {
+          "eyebrow": "Le Nouveau",
+          "title": "Bienvenue — on est là pour les 12 premiers mois",
+          "description": "Tu viens d'arriver ou tu es là depuis quelques mois. Chaque démarche compte — Connect Now te guide pas à pas."
+        },
+        "challenges": {
+          "0": "Valider ton VLS-TS et comprendre les délais de la préfecture",
+          "1": "Faire tes demandes CAF et sécurité sociale sans rater une date",
+          "2": "Construire un réseau social alors que tu ne connais personne sur place"
+        },
+        "steps": {
+          "0": "Nebula répond à tes questions admin 24h/24, sans jargon",
+          "1": "Communauté locale par ville et par université",
+          "2": "Rappels automatiques pour ne jamais rater une échéance critique"
+        },
+        "app": "Le mode Nouveau active ta timeline d'intégration : VLS-TS, CAF, sécu, CVEC — étape par étape, au bon moment."
+      },
+      "etabli": {
+        "meta": {
+          "title": "L'Établi — Deviens mentor | Connect Now",
+          "description": "Installé depuis plus d'un an ? Partage ton vécu et aide les nouveaux à réussir leur intégration avec Connect Now."
+        },
+        "hero": {
+          "eyebrow": "L'Établi",
+          "title": "Tu connais le chemin — partage-le",
+          "description": "Ton expérience vaut de l'or pour un Nouveau. Deviens le compagnon qu'on t'a manqué en arrivant."
+        },
+        "challenges": {
+          "0": "Envie de redonner à la communauté qui t'a aidé",
+          "1": "Transformer ton vécu en ressource utile pour les nouveaux",
+          "2": "Rester connecté à la diaspora étudiante de ta ville"
+        },
+        "steps": {
+          "0": "Programme mentor : réponds aux questions des Nouveaux",
+          "1": "Badges et reconnaissance pour ta contribution à la communauté",
+          "2": "Accès aux événements et groupes de pairs établis"
+        },
+        "app": "Active le mode Établi pour devenir mentor, partager tes bons plans et accompagner les étudiants qui arrivent."
+      }
+    },
+    "features": {
+      "meta": {
+        "title": "Fonctionnalités — Connect Now",
+        "description": "Guide IA Nebula, communauté de pairs et parcours personnalisé : découvre les trois piliers de Connect Now."
+      },
+      "hero": {
+        "eyebrow": "Fonctionnalités",
+        "title": "Trois piliers. Une seule app.",
+        "description": "Connect Now réunit ce que personne d'autre ne combine : un guide spécialisé, une communauté authentique et un parcours qui évolue avec toi."
+      },
+      "items": {
+        "guide": {
+          "title": "Guide IA Nebula",
+          "description": "Une IA entraînée sur les démarches admin françaises pour étudiants étrangers — pas un ChatGPT généraliste.",
+          "points": {
+            "0": "Réponses vérifiées, sans jargon administratif",
+            "1": "Contextualisé selon ton stade et ta ville",
+            "2": "Disponible 24h/24, même à 2h du matin"
+          }
+        },
+        "community": {
+          "title": "Communauté de pairs",
+          "description": "Le meilleur d'un groupe WhatsApp de confiance — sans le bruit, les rumeurs et les infos fausses.",
+          "points": {
+            "0": "Groupes par ville, université et origine",
+            "1": "Entraide modérée et contenus vérifiés",
+            "2": "Des vrais étudiants, pas des bots"
+          }
+        },
+        "journey": {
+          "title": "Parcours personnalisé",
+          "description": "Une timeline intelligente qui sait où tu en es et ce qui arrive ensuite.",
+          "points": {
+            "0": "4 stades : Aspirant, Partant, Nouveau, Établi",
+            "1": "Rappels avant chaque échéance critique",
+            "2": "Checklists actionnables, pas des FAQ interminables"
+          }
+        }
+      },
+      "cta": {
+        "title": "Essaie Connect Now gratuitement",
+        "subtitle": "Installe l'app et découvre les trois piliers en action."
+      }
+    },
+    "whyUs": {
+      "meta": {
+        "title": "Pourquoi Connect Now — Connect Now",
+        "description": "Découvre ce qui différencie Connect Now de Campus France, WhatsApp et ChatGPT."
+      },
+      "hero": {
+        "eyebrow": "Notre différence",
+        "title": "Pas une institution. Pas un groupe WhatsApp. Pas une IA généraliste.",
+        "description": "Connect Now occupe l'espace que personne ne couvre : l'accompagnement humain, spécialisé et continu des étudiants étrangers en France."
+      },
+      "reasons": {
+        "0": {
+          "title": "Construit par un étudiant étranger, pour des étudiants étrangers",
+          "description": "Ce n'est pas un produit pensé « pour » toi depuis un bureau — c'est un produit construit « par » quelqu'un qui a vécu exactement ce que tu vis."
+        },
+        "1": {
+          "title": "Spécialisation vs généralisation",
+          "description": "Nebula connaît les subtilités des démarches françaises. ChatGPT non. Campus France ne couvre que l'avant-départ."
+        },
+        "2": {
+          "title": "Fiabilité vs bruit",
+          "description": "Les groupes WhatsApp sont utiles mais non filtrés. Connect Now combine le lien humain avec des contenus vérifiés et actionnables."
+        },
+        "3": {
+          "title": "Accompagnement continu",
+          "description": "De la candidature à l'établissement — plus de 12 mois. Pas juste un guide PDF avant le départ."
+        }
+      },
+      "cta": {
+        "title": "Rejoins la communauté",
+        "subtitle": "Des milliers d'étudiants avancent ensemble — pas seuls."
+      }
+    },
+    "testimonials": {
+      "meta": {
+        "title": "Témoignages — Connect Now",
+        "description": "Des parcours vrais, des voix vraies : découvre comment Connect Now aide les étudiants étrangers en France."
+      },
+      "hero": {
+        "eyebrow": "Témoignages",
+        "title": "Ils étaient à ta place. Ils avancent avec Connect Now.",
+        "description": "Aspirants, Nouveaux, Établis — chaque stade a sa story."
+      },
+      "items": {
+        "aspirant": {
+          "quote": "J'attendais mon visa sans savoir par où commencer. Connect Now m'a donné une checklist claire — j'ai arrêté de paniquer.",
+          "author": "Amara",
+          "origin": "Sénégal",
+          "stage": "Aspirant"
+        },
+        "partant": {
+          "quote": "Trois semaines avant mon vol, j'avais encore le logement et la banque à régler. La timeline Partant m'a évité de tout faire en urgence.",
+          "author": "Fatou",
+          "origin": "Côte d'Ivoire",
+          "stage": "Partant"
+        },
+        "nouveau": {
+          "quote": "La CAF, la préfecture, la sécu… j'ai posé mes questions à 23h et j'ai eu une réponse de quelqu'un qui avait vécu la même galère.",
+          "author": "Lin",
+          "origin": "Chine",
+          "stage": "Nouveau"
+        },
+        "etabli": {
+          "quote": "Aujourd'hui j'aide les nouveaux dans l'app. C'est exactement le compagnon que j'aurais voulu avoir en arrivant.",
+          "author": "Karim",
+          "origin": "Maroc",
+          "stage": "Établi"
+        }
+      },
+      "cta": {
+        "title": "Écris ta propre story",
+        "subtitle": "Télécharge l'app et commence ton parcours dès aujourd'hui."
+      }
+    },
+    "download": {
+      "meta": {
+        "title": "Télécharger Connect Now",
+        "description": "Télécharge Connect Now gratuitement sur iOS et Android."
+      },
+      "hero": {
+        "eyebrow": "Télécharger",
+        "title": "Ton compagnon est prêt.",
+        "description": "Connect Now est 100% gratuit. Installe l'app, choisis ton stade, et avance."
+      },
+      "steps": {
+        "0": "Télécharge l'app sur App Store ou Google Play",
+        "1": "Crée ton profil en 2 minutes",
+        "2": "Sélectionne ton stade — Aspirant, Partant, Nouveau ou Établi",
+        "3": "Connect Now adapte ton parcours immédiatement"
+      },
+      "stepsTitle": "Comment ça marche"
+    },
+    "about": {
+      "meta": {
+        "title": "À propos — Connect Now",
+        "description": "Notre mission, nos valeurs et notre vision pour l'intégration des étudiants étrangers en France."
+      },
+      "hero": {
+        "eyebrow": "À propos",
+        "title": "L'ami local que tu aurais voulu avoir dès le jour 1.",
+        "description": "Connect Now est né d'un constat simple : personne ne devrait naviguer seul dans l'intégration en France."
+      },
+      "mission": {
+        "title": "Notre mission",
+        "description": "Guider, connecter et autonomiser chaque étudiant étranger — dès avant son arrivée jusqu'à ce qu'il soit pleinement intégré."
+      },
+      "vision": {
+        "title": "Notre vision",
+        "description": "Faire de chaque étudiant étranger un étudiant qui réussit son intégration — pas par chance, mais parce qu'il avait les bons outils et les bonnes personnes autour de lui."
+      },
+      "values": {
+        "title": "Nos valeurs",
+        "items": {
+          "0": { "title": "Authenticité", "description": "On parle vrai. On a vécu ce qu'on résout." },
+          "1": { "title": "Empowerment", "description": "On rend l'étudiant autonome, pas assisté." },
+          "2": { "title": "Inclusion radicale", "description": "Peu importe l'origine, la ville ou le budget." },
+          "3": { "title": "Fiabilité", "description": "Chaque contenu est vérifié, clair et actionnable." },
+          "4": { "title": "Communauté", "description": "La valeur la plus forte d'un pair, c'est son vécu." }
+        }
+      },
+      "cta": {
+        "title": "Fais partie de l'aventure",
+        "subtitle": "Rejoins Connect Now et avance avec ta communauté."
+      }
+    },
+    "universities": {
+      "meta": {
+        "title": "Universités & institutions — Connect Now",
+        "description": "La plateforme dédiée aux relations internationales : suivez, accompagnez et mesurez l'intégration de vos étudiants internationaux."
+      },
+      "hero": {
+        "eyebrow": "Universités & institutions",
+        "title": "Vos étudiants internationaux méritent un accueil à la hauteur de votre ambition.",
+        "description": "Connect Now structure ce qui était informel — et rend l'intégration mesurable."
+      },
+      "problem": {
+        "eyebrow": "Le constat",
+        "title": "L'intégration informelle ne se scale pas.",
+        "description": "Vos équipes RI jonglent entre emails, WhatsApp et tableurs — sans visibilité sur l'avancement réel de vos étudiants internationaux.",
+        "items": {
+          "0": {
+            "title": "Aucune visibilité post-arrivée",
+            "description": "Une fois l'étudiant inscrit, vous ne savez plus s'il a validé son titre de séjour, obtenu la CAF ou trouvé un logement."
+          },
+          "1": {
+            "title": "Charge support disproportionnée",
+            "description": "Les mêmes questions reviennent en boucle — CAF, sécu, préfecture — et épuisent vos équipes d'accueil."
+          },
+          "2": {
+            "title": "Intégration non mesurable",
+            "description": "Impossible de piloter ce que vous ne mesurez pas. Les parcours informels ne produisent aucune donnée actionnable."
+          }
+        }
+      },
+      "platform": {
+        "eyebrow": "La plateforme",
+        "title": "Un tableau de bord pensé pour les relations internationales",
+        "description": "Connect Now côté institution : les outils pour suivre, accompagner et mieux intégrer vos étudiants internationaux.",
+        "items": {
+          "0": {
+            "title": "Suivi des parcours",
+            "description": "Visualisez où en est chaque étudiant dans son intégration — de l'aspiration à l'établissement — en temps réel."
+          },
+          "1": {
+            "title": "Alertes & points de friction",
+            "description": "Identifiez les étudiants bloqués sur une démarche critique avant que ça impacte leur scolarité ou leur séjour."
+          },
+          "2": {
+            "title": "Contenus institutionnels",
+            "description": "Diffusez vos ressources d'accueil directement dans l'app — au bon moment, dans le bon contexte."
+          },
+          "3": {
+            "title": "Indicateurs d'intégration",
+            "description": "Des métriques claires pour piloter votre politique d'accueil et justifier vos investissements."
+          }
+        }
+      },
+      "benefits": {
+        "eyebrow": "Impact",
+        "title": "Un écosystème, pas un outil de plus",
+        "items": {
+          "0": {
+            "title": "Effet réseau two-sided",
+            "description": "L'app mobile crée l'adoption étudiante. La plateforme web vous donne la visibilité. Les deux se renforcent mutuellement."
+          },
+          "1": {
+            "title": "Réduction de la charge RI",
+            "description": "Nebula répond aux questions récurrentes 24h/24 — vos équipes se concentrent sur les cas complexes."
+          },
+          "2": {
+            "title": "Image d'accueil renforcée",
+            "description": "Proposez à vos étudiants internationaux un accompagnement concret — pas juste un livret PDF."
+          }
+        }
+      },
+      "process": {
+        "eyebrow": "Partenariat",
+        "title": "Comment devenir partenaire",
+        "steps": {
+          "0": "Prise de contact et cadrage de vos besoins d'accueil",
+          "1": "Configuration de votre espace institutionnel",
+          "2": "Déploiement auprès de vos étudiants internationaux",
+          "3": "Suivi, indicateurs et amélioration continue"
+        }
+      },
+      "cta": {
+        "title": "Devenez partenaire Connect Now",
+        "subtitle": "Discutons de l'accompagnement de vos étudiants internationaux.",
+        "button": "Nous contacter"
+      }
+    },
+    "legal": {
+      "lastUpdated": "Dernière mise à jour : juin 2025",
+      "mentions": {
+        "meta": { "title": "Mentions légales — Connect Now", "description": "Mentions légales du site Connect Now." },
+        "title": "Mentions légales",
+        "sections": {
+          "0": { "title": "Éditeur du site", "paragraphs": { "0": "Connect Now — Plateforme d'intégration des étudiants étrangers en France.", "1": "Contact : contact@connectnow.fr" } },
+          "1": { "title": "Hébergement", "paragraphs": { "0": "Ce site est hébergé par Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, États-Unis." } },
+          "2": { "title": "Propriété intellectuelle", "paragraphs": { "0": "L'ensemble du contenu de ce site (textes, visuels, logo) est la propriété de Connect Now. Toute reproduction sans autorisation est interdite." } }
+        }
+      },
+      "privacy": {
+        "meta": { "title": "Politique de confidentialité — Connect Now", "description": "Politique de confidentialité de Connect Now." }
+      },
+      "terms": {
+        "meta": { "title": "CGU — Connect Now", "description": "Conditions générales d'utilisation de Connect Now." }
+      }
+    },
+    "support": {
+      "meta": {
+        "title": "Support — Connect Now",
+        "description": "Besoin d'aide ? Contactez l'équipe Connect Now."
+      },
+      "hero": {
+        "eyebrow": "Support",
+        "title": "On est là pour t'aider",
+        "description": "Une question sur l'app, ton parcours ou tes données ? Écris-nous — on te répond dès que possible."
+      },
+      "channels": {
+        "general": {
+          "title": "Support général",
+          "description": "Pour toute question sur l'utilisation de l'application ou du site.",
+          "email": "support@connectnow.fr"
+        },
+        "privacy": {
+          "title": "Données personnelles",
+          "description": "Pour exercer vos droits RGPD ou toute question relative à la confidentialité.",
+          "email": "privacy@connectnow.fr"
+        },
+        "institutional": {
+          "title": "Partenariats & universités",
+          "description": "Pour les demandes institutionnelles et partenariats.",
+          "email": "contact@connectnow.fr"
+        }
+      },
+      "faq": {
+        "title": "Questions fréquentes",
+        "items": {
+          "0": {
+            "question": "L'application est-elle gratuite ?",
+            "answer": "Oui, Connect Now est 100 % gratuit pour les étudiants. Aucun achat intégré."
+          },
+          "1": {
+            "question": "Comment contacter le support ?",
+            "answer": "Envoyez un email à support@connectnow.fr en décrivant votre demande. Pensez à préciser votre stade (Aspirant, Partant, etc.) si pertinent."
+          },
+          "2": {
+            "question": "Comment exercer mes droits sur mes données ?",
+            "answerPrefix": "Écrivez à privacy@connectnow.fr. Consultez aussi notre",
+            "privacyLink": "politique de confidentialité",
+            "answerSuffix": " pour le détail de vos droits."
+          }
+        }
+      }
+    }
+  },
+  "footer": {
+    "tagline": "We can, Together",
+    "legal": "Mentions légales",
+    "privacy": "Politique de confidentialité",
+    "terms": "CGU",
+    "support": "Support",
+    "copyright": "© {year} Connect Now. Tous droits réservés."
+  }
+}

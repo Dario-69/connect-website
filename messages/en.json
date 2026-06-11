@@ -1,0 +1,606 @@
+{
+  "metadata": {
+    "title": "Connect Now — International Student Integration in France",
+    "description": "The mobile companion that guides international students through admin steps, connects them with a peer community, and supports them from aspiration to settling in France."
+  },
+  "common": {
+    "brand": "Connect Now",
+    "slogan": "We can, Together",
+    "tagline": "Your guide. Your community. Your France.",
+    "downloadApp": "Download the app",
+    "learnMore": "Learn more",
+    "comingSoon": "Coming soon",
+    "locale": {
+      "fr": "Français",
+      "en": "English"
+    },
+    "mobileMenu": {
+      "open": "Open menu",
+      "close": "Close menu"
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "journey": "Journey",
+    "features": "Features",
+    "whyUs": "Why Connect Now",
+    "testimonials": "Testimonials",
+    "about": "About",
+    "download": "Download",
+    "universities": "Universities"
+  },
+  "stages": {
+    "aspirant": {
+      "label": "The Aspirant",
+      "shortLabel": "Aspirant",
+      "headline": "Prepare your project without getting lost",
+      "description": "Applications, Campus France, Parcoursup, visa — Connect Now supports you even before you leave."
+    },
+    "partant": {
+      "label": "The Departing",
+      "shortLabel": "Departing",
+      "headline": "Everything's approved — now the essentials",
+      "description": "Housing, bank account, insurance — the final weeks before departure, mapped out for you."
+    },
+    "nouveau": {
+      "label": "The Newcomer",
+      "shortLabel": "Newcomer",
+      "headline": "Welcome — we're here for your first 12 months",
+      "description": "Residence permit, CAF, social security, network — ask your questions, move forward with your community."
+    },
+    "etabli": {
+      "label": "The Established",
+      "shortLabel": "Established",
+      "headline": "You know the way — share it",
+      "description": "Become a mentor, share your experience, and help newcomers succeed in their integration."
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "You don't have to navigate alone.",
+      "subtitle": "Connect Now is the local friend you wish you had from day one.",
+      "cta": "Download for free",
+      "mockupLabel": "Guide · Community · Admin steps"
+    },
+    "stages": {
+      "eyebrow": "Your journey",
+      "title": "Where are you in your project?",
+      "description": "Connect Now adapts to every stage — from preparing your application to becoming a mentor."
+    },
+    "problem": {
+      "eyebrow": "The reality",
+      "title": "international students. Three struggles at once.",
+      "description": "These problems aren't independent — they reinforce each other and create vulnerability at the most critical moment.",
+      "stat": "international students in France every year",
+      "items": {
+        "admin": {
+          "title": "Opaque admin steps",
+          "description": "CAF, social security, residence permit, CVEC — a maze without local reference points."
+        },
+        "isolation": {
+          "title": "Isolation from day one",
+          "description": "No network, no trusted peers, no one to ask the small questions that block everything."
+        },
+        "info": {
+          "title": "Scattered information",
+          "description": "Between inaccessible official sites and saturated WhatsApp groups, nobody knows where to look."
+        }
+      }
+    },
+    "pillars": {
+      "eyebrow": "The solution",
+      "title": "Three pillars. One app.",
+      "description": "Connect Now combines what no one else brings together: utility, human connection, and credibility.",
+      "items": {
+        "guide": {
+          "title": "Specialized AI guide",
+          "description": "Nebula knows the nuances of French admin for international students. Ask your question, get the right answer — no jargon."
+        },
+        "community": {
+          "title": "Peer community",
+          "description": "Thousands of students like you sharing, helping each other, and moving forward together — filtered, reliable, human."
+        },
+        "journey": {
+          "title": "Personalized journey",
+          "description": "From aspiration to settling in, a timeline that adapts to your stage and reminds you what really matters."
+        }
+      }
+    },
+    "compare": {
+      "eyebrow": "Why Connect Now",
+      "title": "Not them. Us.",
+      "description": "We don't replace institutions — we fill what they don't cover.",
+      "columns": {
+        "campusFrance": "Campus France",
+        "whatsapp": "WhatsApp",
+        "chatgpt": "ChatGPT",
+        "connectNow": "Connect Now"
+      },
+      "rows": {
+        "specialized": "Specialized FR admin steps",
+        "community": "Peer community",
+        "postArrival": "Post-arrival support",
+        "humanVoice": "Human voice & lived experience",
+        "free": "100% free"
+      },
+      "values": {
+        "yes": "Yes",
+        "no": "No",
+        "partial": "Partial",
+        "unreliable": "Unreliable",
+        "generic": "Generic",
+        "informal": "Informal",
+        "cold": "Cold"
+      }
+    },
+    "testimonials": {
+      "eyebrow": "Real stories",
+      "title": "Real journeys, real voices",
+      "items": {
+        "aspirant": {
+          "quote": "I was waiting for my visa without knowing where to start. Connect Now gave me a clear checklist — I stopped panicking.",
+          "author": "Amara, Senegal",
+          "stage": "Aspirant"
+        },
+        "nouveau": {
+          "quote": "CAF, prefecture, social security… I asked my questions at 11pm and got an answer from someone who'd been through the same struggle.",
+          "author": "Lin, China",
+          "stage": "Newcomer"
+        },
+        "etabli": {
+          "quote": "Today I help newcomers in the app. It's exactly the companion I wish I'd had when I arrived.",
+          "author": "Karim, Morocco",
+          "stage": "Established"
+        }
+      }
+    },
+    "cta": {
+      "title": "The companion you wish you had from day one.",
+      "subtitle": "Free. No in-app purchases. Install and move forward.",
+      "button": "Download Connect Now"
+    }
+  },
+  "pages": {
+    "parcours": {
+      "meta": {
+        "title": "Student Journey — Connect Now",
+        "description": "From aspiration to settling in: discover how Connect Now supports you at every stage of your project in France."
+      },
+      "hero": {
+        "eyebrow": "Your journey",
+        "title": "Four stages. One companion.",
+        "description": "Wherever you are — Connect Now adapts its content, community, and reminders to your exact stage."
+      },
+      "cta": {
+        "title": "Find your stage in the app",
+        "subtitle": "Onboarding places you in the right spot from the very first open."
+      }
+    },
+    "stageDetail": {
+      "challengesTitle": "Your challenges at this stage",
+      "stepsTitle": "How Connect Now helps",
+      "appTitle": "In the app",
+      "otherStages": "Other stages",
+      "cta": {
+        "title": "Activate your journey in the app",
+        "subtitle": "Download Connect Now and select your stage for tailored support."
+      },
+      "aspirant": {
+        "meta": {
+          "title": "The Aspirant — Prepare your project | Connect Now",
+          "description": "Applications, Campus France, Parcoursup, visa: Connect Now supports you before you leave."
+        },
+        "hero": {
+          "eyebrow": "The Aspirant",
+          "title": "Prepare your project without getting lost",
+          "description": "You're building your application, waiting for your visa — Connect Now prepares the ground during this waiting phase."
+        },
+        "challenges": {
+          "0": "Understanding Campus France and procedures based on your country of origin",
+          "1": "Managing visa wait anxiety without knowing if you're missing a step",
+          "2": "Finding reliable info on studying in France, drowned in contradictory sources"
+        },
+        "steps": {
+          "0": "Personalized checklist based on your country and study level",
+          "1": "Nebula AI guide for your pre-departure procedure questions",
+          "2": "Community of aspirants going through the same wait as you"
+        },
+        "app": "On install, select \"Aspirant\" to unlock your pre-departure journey with tailored reminders and resources."
+      },
+      "partant": {
+        "meta": {
+          "title": "The Departing — Final weeks before departure | Connect Now",
+          "description": "Visa approved: housing, bank, insurance. Connect Now maps your critical steps before departure."
+        },
+        "hero": {
+          "eyebrow": "The Departing",
+          "title": "Everything's approved — now the essentials",
+          "description": "The weeks before departure are the most stressful. Connect Now has mapped them so nothing catches you off guard."
+        },
+        "challenges": {
+          "0": "Finding housing remotely without a local network",
+          "1": "Opening a bank account and getting insurance before arrival",
+          "2": "Organizing your arrival: transport, first day, documents to carry"
+        },
+        "steps": {
+          "0": "\"X weeks before departure\" timeline with clear priorities",
+          "1": "Actionable housing, bank, and insurance guides",
+          "2": "Connect with students already on the ground in your host city"
+        },
+        "app": "Switch to Departing mode in the app: your timeline updates with critical steps to finalize before your flight."
+      },
+      "nouveau": {
+        "meta": {
+          "title": "The Newcomer — Your first 12 months | Connect Now",
+          "description": "Residence permit, CAF, social security, network: Connect Now supports you during your first 12 months in France."
+        },
+        "hero": {
+          "eyebrow": "The Newcomer",
+          "title": "Welcome — we're here for your first 12 months",
+          "description": "You just arrived or you've been here a few months. Every step matters — Connect Now guides you through."
+        },
+        "challenges": {
+          "0": "Validating your residence permit and understanding prefecture timelines",
+          "1": "Submitting CAF and social security requests without missing a deadline",
+          "2": "Building a social network when you don't know anyone locally"
+        },
+        "steps": {
+          "0": "Nebula answers your admin questions 24/7, without jargon",
+          "1": "Local community by city and university",
+          "2": "Automatic reminders so you never miss a critical deadline"
+        },
+        "app": "Newcomer mode activates your integration timeline: residence permit, CAF, social security, CVEC — step by step, at the right time."
+      },
+      "etabli": {
+        "meta": {
+          "title": "The Established — Become a mentor | Connect Now",
+          "description": "Been here over a year? Share your experience and help newcomers succeed with Connect Now."
+        },
+        "hero": {
+          "eyebrow": "The Established",
+          "title": "You know the way — share it",
+          "description": "Your experience is gold for a Newcomer. Become the companion you wish you had when you arrived."
+        },
+        "challenges": {
+          "0": "Wanting to give back to the community that helped you",
+          "1": "Turning your experience into a useful resource for newcomers",
+          "2": "Staying connected to your city's student diaspora"
+        },
+        "steps": {
+          "0": "Mentor program: answer Newcomers' questions",
+          "1": "Badges and recognition for your community contribution",
+          "2": "Access to events and established peer groups"
+        },
+        "app": "Enable Established mode to become a mentor, share your tips, and support students who are arriving."
+      }
+    },
+    "features": {
+      "meta": {
+        "title": "Features — Connect Now",
+        "description": "Nebula AI guide, peer community, and personalized journey: discover Connect Now's three pillars."
+      },
+      "hero": {
+        "eyebrow": "Features",
+        "title": "Three pillars. One app.",
+        "description": "Connect Now brings together what no one else combines: a specialized guide, an authentic community, and a journey that evolves with you."
+      },
+      "items": {
+        "guide": {
+          "title": "Nebula AI Guide",
+          "description": "AI trained on French admin steps for international students — not a generic ChatGPT.",
+          "points": {
+            "0": "Verified answers, no admin jargon",
+            "1": "Contextualized to your stage and city",
+            "2": "Available 24/7, even at 2am"
+          }
+        },
+        "community": {
+          "title": "Peer community",
+          "description": "The best of a trusted WhatsApp group — without the noise, rumors, and false info.",
+          "points": {
+            "0": "Groups by city, university, and origin",
+            "1": "Moderated mutual help and verified content",
+            "2": "Real students, not bots"
+          }
+        },
+        "journey": {
+          "title": "Personalized journey",
+          "description": "A smart timeline that knows where you are and what's next.",
+          "points": {
+            "0": "4 stages: Aspirant, Departing, Newcomer, Established",
+            "1": "Reminders before every critical deadline",
+            "2": "Actionable checklists, not endless FAQs"
+          }
+        }
+      },
+      "cta": {
+        "title": "Try Connect Now for free",
+        "subtitle": "Install the app and see all three pillars in action."
+      }
+    },
+    "whyUs": {
+      "meta": {
+        "title": "Why Connect Now — Connect Now",
+        "description": "Discover what sets Connect Now apart from Campus France, WhatsApp, and ChatGPT."
+      },
+      "hero": {
+        "eyebrow": "Our difference",
+        "title": "Not an institution. Not a WhatsApp group. Not a generic AI.",
+        "description": "Connect Now fills the gap no one covers: human, specialized, continuous support for international students in France."
+      },
+      "reasons": {
+        "0": {
+          "title": "Built by an international student, for international students",
+          "description": "This isn't a product designed \"for\" you from an office — it's built \"by\" someone who lived exactly what you're going through."
+        },
+        "1": {
+          "title": "Specialization vs generalization",
+          "description": "Nebula knows the nuances of French admin. ChatGPT doesn't. Campus France only covers pre-departure."
+        },
+        "2": {
+          "title": "Reliability vs noise",
+          "description": "WhatsApp groups are useful but unfiltered. Connect Now combines human connection with verified, actionable content."
+        },
+        "3": {
+          "title": "Continuous support",
+          "description": "From application to settling in — over 12 months. Not just a PDF guide before departure."
+        }
+      },
+      "cta": {
+        "title": "Join the community",
+        "subtitle": "Thousands of students moving forward together — not alone."
+      }
+    },
+    "testimonials": {
+      "meta": {
+        "title": "Testimonials — Connect Now",
+        "description": "Real journeys, real voices: discover how Connect Now helps international students in France."
+      },
+      "hero": {
+        "eyebrow": "Testimonials",
+        "title": "They were in your shoes. They move forward with Connect Now.",
+        "description": "Aspirants, Newcomers, Established — every stage has its story."
+      },
+      "items": {
+        "aspirant": {
+          "quote": "I was waiting for my visa without knowing where to start. Connect Now gave me a clear checklist — I stopped panicking.",
+          "author": "Amara",
+          "origin": "Senegal",
+          "stage": "Aspirant"
+        },
+        "partant": {
+          "quote": "Three weeks before my flight, I still had housing and banking to sort out. The Departing timeline saved me from doing everything last minute.",
+          "author": "Fatou",
+          "origin": "Ivory Coast",
+          "stage": "Departing"
+        },
+        "nouveau": {
+          "quote": "CAF, prefecture, social security… I asked my questions at 11pm and got an answer from someone who'd been through the same struggle.",
+          "author": "Lin",
+          "origin": "China",
+          "stage": "Newcomer"
+        },
+        "etabli": {
+          "quote": "Today I help newcomers in the app. It's exactly the companion I wish I'd had when I arrived.",
+          "author": "Karim",
+          "origin": "Morocco",
+          "stage": "Established"
+        }
+      },
+      "cta": {
+        "title": "Write your own story",
+        "subtitle": "Download the app and start your journey today."
+      }
+    },
+    "download": {
+      "meta": {
+        "title": "Download Connect Now",
+        "description": "Download Connect Now for free on iOS and Android."
+      },
+      "hero": {
+        "eyebrow": "Download",
+        "title": "Your companion is ready.",
+        "description": "Connect Now is 100% free. Install the app, choose your stage, and move forward."
+      },
+      "steps": {
+        "0": "Download the app from App Store or Google Play",
+        "1": "Create your profile in 2 minutes",
+        "2": "Select your stage — Aspirant, Departing, Newcomer, or Established",
+        "3": "Connect Now adapts your journey immediately"
+      },
+      "stepsTitle": "How it works"
+    },
+    "about": {
+      "meta": {
+        "title": "About — Connect Now",
+        "description": "Our mission, values, and vision for international student integration in France."
+      },
+      "hero": {
+        "eyebrow": "About",
+        "title": "The local friend you wish you had from day one.",
+        "description": "Connect Now was born from a simple observation: no one should navigate integration in France alone."
+      },
+      "mission": {
+        "title": "Our mission",
+        "description": "Guide, connect, and empower every international student — from before arrival until fully settled in."
+      },
+      "vision": {
+        "title": "Our vision",
+        "description": "Make every international student succeed in their integration — not by luck, but because they had the right tools and people around them."
+      },
+      "values": {
+        "title": "Our values",
+        "items": {
+          "0": { "title": "Authenticity", "description": "We speak truth. We've lived what we solve." },
+          "1": { "title": "Empowerment", "description": "We make students autonomous, not dependent." },
+          "2": { "title": "Radical inclusion", "description": "Regardless of origin, city, or budget." },
+          "3": { "title": "Reliability", "description": "Every piece of content is verified, clear, and actionable." },
+          "4": { "title": "Community", "description": "A peer's greatest value is their lived experience." }
+        }
+      },
+      "cta": {
+        "title": "Be part of the journey",
+        "subtitle": "Join Connect Now and move forward with your community."
+      }
+    },
+    "universities": {
+      "meta": {
+        "title": "Universities & institutions — Connect Now",
+        "description": "The platform built for international relations offices: track, support, and measure your international students' integration."
+      },
+      "hero": {
+        "eyebrow": "Universities & institutions",
+        "title": "Your international students deserve a welcome that matches your ambition.",
+        "description": "Connect Now structures what was informal — and makes integration measurable."
+      },
+      "problem": {
+        "eyebrow": "The reality",
+        "title": "Informal integration doesn't scale.",
+        "description": "Your IR teams juggle emails, WhatsApp, and spreadsheets — with no visibility on your international students' real progress.",
+        "items": {
+          "0": {
+            "title": "No post-arrival visibility",
+            "description": "Once enrolled, you don't know if they've validated their residence permit, obtained CAF housing aid, or found housing."
+          },
+          "1": {
+            "title": "Disproportionate support load",
+            "description": "The same questions keep coming back — CAF, social security, prefecture — exhausting your welcome teams."
+          },
+          "2": {
+            "title": "Unmeasurable integration",
+            "description": "You can't manage what you don't measure. Informal pathways produce no actionable data."
+          }
+        }
+      },
+      "platform": {
+        "eyebrow": "The platform",
+        "title": "A dashboard built for international relations",
+        "description": "Connect Now for institutions: the tools to track, support, and better integrate your international students.",
+        "items": {
+          "0": {
+            "title": "Journey tracking",
+            "description": "See where each student stands in their integration — from aspiration to settling in — in real time."
+          },
+          "1": {
+            "title": "Alerts & friction points",
+            "description": "Identify students stuck on a critical step before it impacts their studies or stay."
+          },
+          "2": {
+            "title": "Institutional content",
+            "description": "Share your welcome resources directly in the app — at the right moment, in the right context."
+          },
+          "3": {
+            "title": "Integration indicators",
+            "description": "Clear metrics to drive your welcome policy and justify your investments."
+          }
+        }
+      },
+      "benefits": {
+        "eyebrow": "Impact",
+        "title": "An ecosystem, not just another tool",
+        "items": {
+          "0": {
+            "title": "Two-sided network effect",
+            "description": "The mobile app drives student adoption. The web platform gives you visibility. Both reinforce each other."
+          },
+          "1": {
+            "title": "Reduced IR workload",
+            "description": "Nebula answers recurring questions 24/7 — your teams focus on complex cases."
+          },
+          "2": {
+            "title": "Stronger welcome image",
+            "description": "Offer your international students concrete support — not just a PDF booklet."
+          }
+        }
+      },
+      "process": {
+        "eyebrow": "Partnership",
+        "title": "How to become a partner",
+        "steps": {
+          "0": "Initial contact and scoping of your welcome needs",
+          "1": "Configuration of your institutional workspace",
+          "2": "Rollout to your international students",
+          "3": "Monitoring, metrics, and continuous improvement"
+        }
+      },
+      "cta": {
+        "title": "Become a Connect Now partner",
+        "subtitle": "Let's discuss supporting your international students.",
+        "button": "Contact us"
+      }
+    },
+    "legal": {
+      "lastUpdated": "Last updated: June 2025",
+      "mentions": {
+        "meta": { "title": "Legal notice — Connect Now", "description": "Legal notice for the Connect Now website." },
+        "title": "Legal notice",
+        "sections": {
+          "0": { "title": "Site publisher", "paragraphs": { "0": "Connect Now — International student integration platform in France.", "1": "Contact: contact@connectnow.fr" } },
+          "1": { "title": "Hosting", "paragraphs": { "0": "This site is hosted by Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, USA." } },
+          "2": { "title": "Intellectual property", "paragraphs": { "0": "All content on this site (text, visuals, logo) is the property of Connect Now. Any reproduction without authorization is prohibited." } }
+        }
+      },
+      "privacy": {
+        "meta": { "title": "Privacy policy — Connect Now", "description": "Connect Now privacy policy." }
+      },
+      "terms": {
+        "meta": { "title": "Terms of use — Connect Now", "description": "Connect Now terms of use." }
+      }
+    },
+    "support": {
+      "meta": {
+        "title": "Support — Connect Now",
+        "description": "Need help? Contact the Connect Now team."
+      },
+      "hero": {
+        "eyebrow": "Support",
+        "title": "We're here to help",
+        "description": "Questions about the app, your journey, or your data? Write to us — we'll get back to you as soon as possible."
+      },
+      "channels": {
+        "general": {
+          "title": "General support",
+          "description": "For any questions about using the app or website.",
+          "email": "support@connectnow.fr"
+        },
+        "privacy": {
+          "title": "Personal data",
+          "description": "To exercise your GDPR rights or ask privacy-related questions.",
+          "email": "privacy@connectnow.fr"
+        },
+        "institutional": {
+          "title": "Partnerships & universities",
+          "description": "For institutional requests and partnerships.",
+          "email": "contact@connectnow.fr"
+        }
+      },
+      "faq": {
+        "title": "Frequently asked questions",
+        "items": {
+          "0": {
+            "question": "Is the app free?",
+            "answer": "Yes, Connect Now is 100% free for students. No in-app purchases."
+          },
+          "1": {
+            "question": "How do I contact support?",
+            "answer": "Send an email to support@connectnow.fr describing your request. Include your stage (Aspirant, Partant, etc.) if relevant."
+          },
+          "2": {
+            "question": "How do I exercise my data rights?",
+            "answerPrefix": "Write to privacy@connectnow.fr. See also our",
+            "privacyLink": "privacy policy",
+            "answerSuffix": " for details on your rights."
+          }
+        }
+      }
+    }
+  },
+  "footer": {
+    "tagline": "We can, Together",
+    "legal": "Legal notice",
+    "privacy": "Privacy policy",
+    "terms": "Terms of use",
+    "support": "Support",
+    "copyright": "© {year} Connect Now. All rights reserved."
+  }
+}

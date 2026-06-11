@@ -1,0 +1,102 @@
+{
+  "title": "Politique de confidentialité",
+  "lastUpdated": "Dernière mise à jour : mai 2023",
+  "sections": [
+    {
+      "title": "Responsable du traitement des données personnelles",
+      "paragraphs": [
+        "Le responsable du traitement des données personnelles est la start-up en formation DATKOM-INFORMATICS, représentée par OCCANSEY Komlan Marcel Darius.",
+        "Pour toute question concernant la protection des données personnelles, vous pouvez contacter le service juridique de l'application à privacy@connectnow.fr."
+      ]
+    },
+    {
+      "title": "Finalités du traitement des données personnelles",
+      "paragraphs": [
+        "Les données personnelles sont collectées et traitées pour les finalités suivantes :"
+      ],
+      "items": [
+        "Fournir des informations aux étudiants étrangers sur les études et la vie en France ;",
+        "Améliorer l'expérience utilisateur de l'application ;",
+        "Réaliser des analyses statistiques."
+      ]
+    },
+    {
+      "title": "Catégories de données personnelles collectées et utilisées",
+      "paragraphs": [
+        "Les données personnelles collectées et utilisées sont les suivantes :"
+      ],
+      "items": [
+        "Informations d'identification : nom, prénom, adresse e-mail, numéro de téléphone ;",
+        "Informations de localisation : pays d'origine, ville de résidence en France, ville d'étude en France ;",
+        "Informations sur les études : domaine d'études, niveau d'études, établissement scolaire."
+      ]
+    },
+    {
+      "title": "Destinataires ou catégories de destinataires des données personnelles",
+      "paragraphs": [
+        "Les données personnelles peuvent être transmises aux destinataires suivants :"
+      ],
+      "items": [
+        "Les membres du personnel de l'entreprise chargés de la gestion de l'application ;",
+        "Les services publics exclusivement pour répondre aux obligations légales ;",
+        "S'il y a lieu, les juridictions concernées, autorités de police ou de gendarmerie en cas de vol ou de réquisition judiciaire, secours ;",
+        "Le personnel habilité des partenaires de l'entreprise impliqués dans l'amélioration de l'application."
+      ],
+      "paragraphsAfter": [
+        "Vos données personnelles ne sont communiquées, échangées, vendues ou louées à aucune autre personne que celles mentionnées ci-dessus."
+      ]
+    },
+    {
+      "title": "Transferts de données personnelles vers des pays tiers",
+      "paragraphs": [
+        "DATKOM-INFORMATICS n'entend pas transférer vos données personnelles en dehors de l'Union européenne dans le cadre des traitements dont elle est responsable.",
+        "Dans l'hypothèse où DATKOM-INFORMATICS devrait le faire, elle vous en informerait en indiquant les mesures prises afin de contrôler ce transfert et s'assurer du respect de la confidentialité de vos données personnelles."
+      ]
+    },
+    {
+      "title": "Durée de conservation des données personnelles",
+      "paragraphs": [
+        "Nous conservons les données personnelles des utilisateurs aussi longtemps que nécessaire pour fournir les services demandés, sauf si une période de conservation plus longue est requise par la loi ou pour se conformer à une obligation légale."
+      ]
+    },
+    {
+      "title": "Modifications de la politique de confidentialité",
+      "paragraphs": [
+        "Nous nous réservons le droit de modifier cette politique de confidentialité à tout moment. Les utilisateurs seront informés des modifications par le biais de notre application mobile ou par d'autres moyens appropriés.",
+        "Si vous avez des questions ou des préoccupations concernant cette politique de confidentialité, n'hésitez pas à nous contacter à support@connectnow.fr."
+      ]
+    },
+    {
+      "title": "Droits des personnes concernées",
+      "paragraphs": [
+        "Vous disposez des droits suivants concernant vos données personnelles :"
+      ],
+      "items": [
+        "Le droit d'accéder à vos données personnelles et d'en obtenir une copie ;",
+        "Le droit de demander la rectification de vos données personnelles ;",
+        "Le droit de demander l'effacement de vos données personnelles ;",
+        "Le droit de vous opposer au traitement de vos données personnelles ;",
+        "Le droit de demander la limitation du traitement de vos données personnelles ;",
+        "Le droit à la portabilité de vos données personnelles."
+      ],
+      "paragraphsAfter": [
+        "Vous pouvez exercer les droits mentionnés ci-dessus par simple demande par email à privacy@connectnow.fr.",
+        "Quel que soit le droit invoqué, vous devez justifier de votre identité par tout moyen et justifier d'un motif légitime lorsque celui-ci est exigé par la loi (notamment en cas d'opposition au traitement).",
+        "Pour mieux connaître vos droits, vous pouvez également consulter le site internet de la CNIL, accessible à l'adresse suivante : http://cnil.fr."
+      ]
+    },
+    {
+      "title": "Droit de retirer son consentement",
+      "paragraphs": [
+        "Si le traitement de vos données personnelles est fondé sur votre consentement, vous avez le droit de retirer votre consentement à tout moment."
+      ]
+    },
+    {
+      "title": "Mesures de sécurité",
+      "paragraphs": [
+        "DATKOM-INFORMATICS et ses éventuels sous-traitants s'engagent à mettre en œuvre toutes les mesures techniques et organisationnelles afin d'assurer la sécurité de ses traitements de données personnelles et la confidentialité de vos données, en application de la Loi informatique et Libertés et du RGPD.",
+        "A ce titre, DATKOM-INFORMATICS prend les précautions utiles, au regard de la nature de vos données et des risques présentés par ses traitements de données, pour préserver la sécurité des données et, notamment, empêcher qu'elles soient déformées, endommagées, ou que des tiers non autorisés y aient accès (protection physique des locaux, procédé d'authentification des internautes avec accès personnel et sécurisé via des identifiants et mots de passe confidentiels, journalisation des connexions, chiffrement de certaines données, etc.)."
+      ]
+    }
+  ]
+}

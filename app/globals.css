@@ -1,26 +1,121 @@
 @import "tailwindcss";
+@import "lenis/dist/lenis.css";
 
+/* ─── Connect Now Design Tokens ─── */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --color-violet: #6e61ff;
+  --color-violet-soft: #b0a0fe;
+  --color-graphite: #1a1a1a;
+  --color-white: #ffffff;
+  --color-gray: #e9e9e9;
+
+  --background: var(--color-white);
+  --foreground: var(--color-graphite);
+
+  --section-padding-y: clamp(4rem, 10vw, 8rem);
+  --header-height: 72px;
+  --radius-lg: 1rem;
+  --radius-xl: 1.5rem;
+  --radius-full: 9999px;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-violet: var(--color-violet);
+  --color-violet-soft: var(--color-violet-soft);
+  --color-graphite: var(--color-graphite);
+  --color-gray: var(--color-gray);
+
+  --font-heading: var(--font-heading);
+  --font-body: var(--font-body);
+  --font-sans: var(--font-body);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+/* ─── Base ─── */
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
   }
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-body), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading), system-ui, sans-serif;
+}
+
+::selection {
+  background: color-mix(in srgb, var(--color-violet) 30%, transparent);
+  color: var(--color-graphite);
+}
+
+/* ─── Utility classes ─── */
+.font-heading {
+  font-family: var(--font-heading), system-ui, sans-serif;
+}
+
+.font-body {
+  font-family: var(--font-body), system-ui, sans-serif;
+}
+
+.text-gradient-violet {
+  background: linear-gradient(
+    135deg,
+    var(--color-violet) 0%,
+    var(--color-violet-soft) 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.mesh-gradient {
+  background:
+    radial-gradient(
+      ellipse 80% 60% at 20% 40%,
+      color-mix(in srgb, var(--color-violet-soft) 40%, transparent),
+      transparent
+    ),
+    radial-gradient(
+      ellipse 60% 50% at 80% 20%,
+      color-mix(in srgb, var(--color-violet) 25%, transparent),
+      transparent
+    ),
+    var(--color-white);
+}
+
+.section-padding {
+  padding-top: var(--section-padding-y);
+  padding-bottom: var(--section-padding-y);
+}
+
+.container-main {
+  width: 100%;
+  max-width: 1280px;
+  margin-inline: auto;
+  padding-inline: clamp(1rem, 4vw, 2rem);
 }

@@ -1,0 +1,94 @@
+{
+  "title": "Privacy Policy",
+  "lastUpdated": "Last updated: May 2023",
+  "sections": [
+    {
+      "title": "Data controller",
+      "paragraphs": [
+        "The data controller is the startup-in-formation DATKOM-INFORMATICS, represented by OCCANSEY Komlan Marcel Darius.",
+        "For any questions regarding personal data protection, you may contact our legal team at privacy@connectnow.fr."
+      ]
+    },
+    {
+      "title": "Purposes of personal data processing",
+      "paragraphs": ["Personal data is collected and processed for the following purposes:"],
+      "items": [
+        "Providing information to international students about studying and living in France;",
+        "Improving the user experience of the application;",
+        "Conducting statistical analyses."
+      ]
+    },
+    {
+      "title": "Categories of personal data collected and used",
+      "paragraphs": ["The personal data collected and used includes:"],
+      "items": [
+        "Identification information: name, email address, phone number;",
+        "Location information: country of origin, city of residence in France, city of study in France;",
+        "Study information: field of study, level of study, educational institution."
+      ]
+    },
+    {
+      "title": "Recipients of personal data",
+      "paragraphs": ["Personal data may be transmitted to the following recipients:"],
+      "items": [
+        "Company staff responsible for managing the application;",
+        "Public authorities solely to comply with legal obligations;",
+        "Where applicable, relevant courts, police or gendarmerie authorities in case of theft or judicial requisition, emergency services;",
+        "Authorized personnel of company partners involved in improving the application."
+      ],
+      "paragraphsAfter": [
+        "Your personal data is not shared, exchanged, sold, or rented to anyone other than those mentioned above."
+      ]
+    },
+    {
+      "title": "Transfers of personal data to third countries",
+      "paragraphs": [
+        "DATKOM-INFORMATICS does not intend to transfer your personal data outside the European Union as part of the processing for which it is responsible.",
+        "Should DATKOM-INFORMATICS need to do so, you would be informed of the measures taken to control such transfer and ensure the confidentiality of your personal data."
+      ]
+    },
+    {
+      "title": "Data retention period",
+      "paragraphs": [
+        "We retain users' personal data for as long as necessary to provide the requested services, unless a longer retention period is required by law or to comply with a legal obligation."
+      ]
+    },
+    {
+      "title": "Changes to this privacy policy",
+      "paragraphs": [
+        "We reserve the right to modify this privacy policy at any time. Users will be informed of changes through our mobile application or by other appropriate means.",
+        "If you have any questions or concerns about this privacy policy, please contact us at support@connectnow.fr."
+      ]
+    },
+    {
+      "title": "Rights of data subjects",
+      "paragraphs": ["You have the following rights regarding your personal data:"],
+      "items": [
+        "The right to access your personal data and obtain a copy;",
+        "The right to request rectification of your personal data;",
+        "The right to request erasure of your personal data;",
+        "The right to object to the processing of your personal data;",
+        "The right to request restriction of processing of your personal data;",
+        "The right to data portability."
+      ],
+      "paragraphsAfter": [
+        "You may exercise the above rights by sending a simple request by email to privacy@connectnow.fr.",
+        "Regardless of the right invoked, you must prove your identity by any means and justify a legitimate reason when required by law (particularly in case of objection to processing).",
+        "To learn more about your rights, you may also visit the CNIL website at http://cnil.fr."
+      ]
+    },
+    {
+      "title": "Right to withdraw consent",
+      "paragraphs": [
+        "If the processing of your personal data is based on your consent, you have the right to withdraw your consent at any time."
+      ]
+    },
+    {
+      "title": "Security measures",
+      "paragraphs": [
+        "DATKOM-INFORMATICS and its subcontractors undertake to implement all technical and organizational measures to ensure the security of personal data processing and the confidentiality of your data, in accordance with the French Data Protection Act and the GDPR.",
+        "To this end, DATKOM-INFORMATICS takes appropriate precautions, given the nature of your data and the risks presented by its processing, to preserve data security and prevent it from being distorted, damaged, or accessed by unauthorized third parties."
+      ]
+    }
+  ]
+}
