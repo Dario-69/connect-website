@@ -4,6 +4,8 @@ import { useEffect, useRef, useState } from "react";
 import { motion, useInView } from "framer-motion";
 import { useLocale, useTranslations } from "next-intl";
 import { FadeInView } from "@/components/animations/FadeInView";
+import { BrandBlob, DecorativeRing, DotGrid } from "@/components/decorative/VisualDecor";
+import { PROBLEM_ICONS } from "@/components/icons/BrandIcons";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 
 const PROBLEM_KEYS = ["admin", "isolation", "info"] as const;
@@ -41,8 +43,15 @@ export function ProblemSection() {
   const t = useTranslations("home.problem");
 
   return (
-    <section className="section-padding bg-graphite text-white">
-      <div className="container-main">
+    <section className="section-padding relative overflow-hidden bg-graphite text-white">
+      <DotGrid variant="dark" />
+      <DecorativeRing
+        variant="dark"
+        className="left-1/2 top-8 h-[480px] w-[480px] -translate-x-1/2 opacity-40"
+      />
+      <BrandBlob color="white" size="lg" className="-left-20 top-1/4 opacity-30" />
+      <BrandBlob color="violet-soft" size="md" className="-right-16 bottom-0 opacity-20" />
+      <div className="container-main relative">
         <FadeInView>
           <SectionHeading
             eyebrow={t("eyebrow")}
@@ -62,18 +71,26 @@ export function ProblemSection() {
         </p>
 
         <div className="mt-16 grid gap-6 md:grid-cols-3">
-          {PROBLEM_KEYS.map((key, index) => (
+          {PROBLEM_KEYS.map((key, index) => {
+            const Icon = PROBLEM_ICONS[key];
+
+            return (
             <motion.article
               key={key}
-              className="rounded-2xl border border-white/15 bg-white/5 p-6 backdrop-blur-sm"
+              className="card-shine rounded-2xl border border-white/15 bg-white/5 p-6 backdrop-blur-sm"
               initial={{ opacity: 0, y: 32 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-60px" }}
               transition={{ duration: 0.5, delay: index * 0.12 }}
             >
-              <span className="font-heading text-4xl font-bold text-violet-soft">
-                0{index + 1}
-              </span>
+              <div className="flex items-start justify-between">
+                <div className="flex h-11 w-11 items-center justify-center rounded-xl border border-white/20 bg-white/10 text-violet-soft">
+                  <Icon />
+                </div>
+                <span className="font-heading text-3xl font-bold text-white/20">
+                  0{index + 1}
+                </span>
+              </div>
               <h3 className="mt-4 font-heading text-xl font-bold">
                 {t(`items.${key}.title`)}
               </h3>
@@ -81,7 +98,8 @@ export function ProblemSection() {
                 {t(`items.${key}.description`)}
               </p>
             </motion.article>
-          ))}
+            );
+          })}
         </div>
       </div>
     </section>

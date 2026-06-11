@@ -2,11 +2,11 @@
 
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
+import { Logo } from "@/components/layout/Logo";
 import { FOOTER_NAV } from "@/lib/constants";
 import { cn } from "@/lib/utils";
 
 export function Footer({ className }: { className?: string }) {
-  const t = useTranslations();
   const tFooter = useTranslations("footer");
   const tNav = useTranslations("nav");
 
@@ -15,10 +15,8 @@ export function Footer({ className }: { className?: string }) {
       <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="flex flex-col gap-8 md:flex-row md:items-start md:justify-between">
           <div>
-            <p className="font-heading text-xl font-bold text-graphite">
-              {t("common.brand")}
-            </p>
-            <p className="mt-2 text-sm text-graphite/60">{tFooter("tagline")}</p>
+            <Logo showWordmark iconClassName="h-8 w-8" />
+            <p className="mt-3 text-sm text-graphite/60">{tFooter("tagline")}</p>
           </div>
 
           <nav className="flex flex-wrap gap-x-6 gap-y-2" aria-label="Footer">

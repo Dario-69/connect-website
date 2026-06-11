@@ -60,12 +60,14 @@
       "title": "Tu n'as pas à naviguer seul.",
       "subtitle": "Connect Now, c'est l'ami local que tu aurais voulu avoir dès le premier jour.",
       "cta": "Télécharger gratuitement",
-      "mockupLabel": "Guide · Communauté · Démarches"
+      "mockupLabel": "Guide · Communauté · Démarches",
+      "mockupBadge": "Gratuit · 100 % étudiants"
     },
     "stages": {
       "eyebrow": "Ton parcours",
       "title": "Où en es-tu dans ton projet ?",
-      "description": "Connect Now s'adapte à chaque étape — de la préparation de ton dossier à ton rôle de mentor."
+      "description": "Connect Now s'adapte à chaque étape — de la préparation de ton dossier à ton rôle de mentor.",
+      "cta": "Découvrir"
     },
     "problem": {
       "eyebrow": "Le constat",

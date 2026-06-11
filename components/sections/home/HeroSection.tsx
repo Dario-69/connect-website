@@ -5,6 +5,8 @@ import { motion } from "framer-motion";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useTranslations } from "next-intl";
+import { AvatarStack } from "@/components/decorative/AvatarInitials";
+import { BrandBlob, DotGrid } from "@/components/decorative/VisualDecor";
 import { StoreButtons } from "@/components/ui/StoreButtons";
 import { fadeInUp, staggerContainer } from "@/lib/animations";
 
@@ -14,31 +16,71 @@ function PhoneMockup() {
   const t = useTranslations("home.hero");
 
   return (
-    <div className="rounded-[2.5rem] border-2 border-graphite bg-white p-3">
-      <div className="overflow-hidden rounded-[2rem] border border-gray bg-gray/30">
-        <div className="flex items-center justify-between px-4 py-3">
-          <span className="text-[10px] font-medium text-graphite/50">9:41</span>
-          <span className="rounded-full bg-violet/15 px-2 py-0.5 text-[10px] font-semibold text-violet">
-            Connect Now
-          </span>
-        </div>
-        <div className="space-y-3 px-4 pb-6">
-          <div className="h-2 w-3/4 rounded-full bg-violet/30" />
-          <div className="h-2 w-full rounded-full bg-gray" />
-          <div className="h-2 w-5/6 rounded-full bg-gray" />
-          <div className="mt-4 rounded-2xl border border-violet/30 bg-violet/10 p-3">
-            <p className="text-[11px] font-medium text-violet">Nebula</p>
-            <p className="mt-1 text-[10px] leading-relaxed text-graphite/70">
-              {t("mockupLabel")}
-            </p>
+    <div className="relative">
+      <div className="absolute -right-4 -top-4 rounded-full border border-violet/30 bg-white px-3 py-1.5 text-[10px] font-semibold text-violet">
+        {t("mockupBadge")}
+      </div>
+      <div className="rounded-[2.5rem] border-2 border-graphite bg-white p-3">
+        <div className="overflow-hidden rounded-[2rem] border border-gray bg-gray/20">
+          <div className="flex items-center justify-between px-4 py-3">
+            <span className="text-[10px] font-medium text-graphite/50">9:41</span>
+            <span className="rounded-full bg-violet/15 px-2 py-0.5 text-[10px] font-semibold text-violet">
+              Connect Now
+            </span>
           </div>
-          <div className="grid grid-cols-3 gap-2">
-            {[1, 2, 3].map((i) => (
-              <div
-                key={i}
-                className="aspect-square rounded-xl border border-gray bg-white"
-              />
-            ))}
+          <div className="space-y-3 px-4 pb-6">
+            <div className="flex items-center justify-between">
+              <div className="space-y-1.5">
+                <div className="h-2 w-20 rounded-full bg-violet/40" />
+                <div className="h-1.5 w-28 rounded-full bg-gray" />
+              </div>
+              <AvatarStack initials={["A", "L", "K"]} />
+            </div>
+            <div className="flex gap-1.5">
+              {["Aspirant", "Partant", "Nouveau"].map((label, i) => (
+                <span
+                  key={label}
+                  className={`rounded-full px-2 py-0.5 text-[9px] font-medium ${
+                    i === 0
+                      ? "bg-violet text-white"
+                      : "border border-gray bg-white text-graphite/50"
+                  }`}
+                >
+                  {label}
+                </span>
+              ))}
+            </div>
+            <div className="rounded-2xl border border-violet/30 bg-violet/10 p-3">
+              <p className="text-[11px] font-medium text-violet">Nebula</p>
+              <p className="mt-1 text-[10px] leading-relaxed text-graphite/70">
+                {t("mockupLabel")}
+              </p>
+            </div>
+            <div className="grid grid-cols-3 gap-2">
+              {[
+                { label: "Visa", done: true },
+                { label: "CAF", done: false },
+                { label: "Logement", done: false },
+              ].map((item) => (
+                <div
+                  key={item.label}
+                  className={`rounded-xl border p-2 text-center ${
+                    item.done
+                      ? "border-violet/40 bg-violet/10"
+                      : "border-gray bg-white"
+                  }`}
+                >
+                  <div
+                    className={`mx-auto mb-1 h-4 w-4 rounded-full border-2 ${
+                      item.done ? "border-violet bg-violet" : "border-gray"
+                    }`}
+                  />
+                  <p className="text-[8px] font-medium text-graphite/60">
+                    {item.label}
+                  </p>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </div>
@@ -93,6 +135,7 @@ export function HeroSection() {
       ref={sectionRef}
       className="mesh-gradient relative overflow-hidden"
     >
+      <DotGrid variant="light" className="opacity-60" />
       <div ref={stickyRef} className="relative min-h-screen section-padding">
         <div
           ref={blobLeftRef}
@@ -101,6 +144,11 @@ export function HeroSection() {
         <div
           ref={blobRightRef}
           className="pointer-events-none absolute -right-24 bottom-10 h-72 w-72 rounded-full bg-violet/20 blur-3xl"
+        />
+        <BrandBlob
+          color="violet-soft"
+          size="sm"
+          className="right-1/4 top-1/3 opacity-70"
         />
 
         <div className="container-main relative flex min-h-[calc(100vh-var(--header-height)-var(--section-padding-y))] items-center">

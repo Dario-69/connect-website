@@ -60,12 +60,14 @@
       "title": "You don't have to navigate alone.",
       "subtitle": "Connect Now is the local friend you wish you had from day one.",
       "cta": "Download for free",
-      "mockupLabel": "Guide · Community · Admin steps"
+      "mockupLabel": "Guide · Community · Admin steps",
+      "mockupBadge": "Free · 100% for students"
     },
     "stages": {
       "eyebrow": "Your journey",
       "title": "Where are you in your project?",
-      "description": "Connect Now adapts to every stage — from preparing your application to becoming a mentor."
+      "description": "Connect Now adapts to every stage — from preparing your application to becoming a mentor.",
+      "cta": "Explore"
     },
     "problem": {
       "eyebrow": "The reality",

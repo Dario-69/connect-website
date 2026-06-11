@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { fadeInUp, staggerContainer } from "@/lib/animations";
+import { BrandBlob, DotGrid } from "@/components/decorative/VisualDecor";
 import { cn } from "@/lib/utils";
 
 type PageHeroProps = {
@@ -26,8 +27,23 @@ export function PageHero({
   const isDark = variant === "dark";
 
   return (
-    <section className={cn("section-padding", variants[variant])}>
-      <div className="container-main">
+    <section className={cn("section-padding relative overflow-hidden", variants[variant])}>
+      {variant === "default" ? (
+        <>
+          <DotGrid variant="light" className="opacity-50" />
+          <BrandBlob color="violet-soft" size="sm" className="right-0 top-0 opacity-60" />
+        </>
+      ) : null}
+      {variant === "violet" ? (
+        <DotGrid variant="violet" className="opacity-35" />
+      ) : null}
+      {variant === "dark" ? (
+        <>
+          <DotGrid variant="dark" />
+          <BrandBlob color="white" size="md" className="-right-20 top-1/2 opacity-20" />
+        </>
+      ) : null}
+      <div className="container-main relative">
         <motion.div
           className="mx-auto max-w-3xl text-center"
           variants={staggerContainer}

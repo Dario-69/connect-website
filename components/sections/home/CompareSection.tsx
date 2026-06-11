@@ -3,6 +3,12 @@
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 import { FadeInView } from "@/components/animations/FadeInView";
+import { DotGrid } from "@/components/decorative/VisualDecor";
+import {
+  CompareNoIcon,
+  ComparePartialIcon,
+  CompareYesIcon,
+} from "@/components/icons/BrandIcons";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { cn } from "@/lib/utils";
 
@@ -58,6 +64,25 @@ const COMPETITORS = [
   { key: "chatgpt", field: "chatgpt" as const },
 ];
 
+function CompareValueIcon({ valueKey }: { valueKey: string }) {
+  if (valueKey === "yes") {
+    return <CompareYesIcon className="text-violet" />;
+  }
+  if (valueKey === "no") {
+    return <CompareNoIcon className="text-graphite/35" />;
+  }
+  if (
+    valueKey === "partial" ||
+    valueKey === "generic" ||
+    valueKey === "unreliable" ||
+    valueKey === "informal" ||
+    valueKey === "cold"
+  ) {
+    return <ComparePartialIcon className="text-graphite/45" />;
+  }
+  return null;
+}
+
 function CellValue({
   valueKey,
   highlight = false,
@@ -67,15 +92,19 @@ function CellValue({
 }) {
   const t = useTranslations("home.compare.values");
   const isPositive = valueKey === "yes";
+  const icon = <CompareValueIcon valueKey={valueKey} />;
 
   return (
-    <span
-      className={cn(
-        "text-sm font-medium",
-        highlight || isPositive ? "text-violet" : "text-graphite/45",
-      )}
-    >
-      {t(valueKey)}
+    <span className="flex flex-col items-center gap-1.5">
+      {icon}
+      <span
+        className={cn(
+          "text-xs font-medium sm:text-sm",
+          highlight || isPositive ? "text-violet" : "text-graphite/45",
+        )}
+      >
+        {t(valueKey)}
+      </span>
     </span>
   );
 }
@@ -206,8 +235,9 @@ export function CompareSection() {
   const t = useTranslations("home.compare");
 
   return (
-    <section className="section-padding bg-gray/40">
-      <div className="container-main">
+    <section className="section-padding relative overflow-hidden bg-gray/40">
+      <DotGrid variant="violet" className="opacity-30" />
+      <div className="container-main relative">
         <FadeInView>
           <SectionHeading
             eyebrow={t("eyebrow")}

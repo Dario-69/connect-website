@@ -108,6 +108,38 @@ h6 {
     var(--color-white);
 }
 
+.section-mesh {
+  background:
+    radial-gradient(
+      ellipse 70% 50% at 100% 0%,
+      color-mix(in srgb, var(--color-violet-soft) 18%, transparent),
+      transparent
+    ),
+    radial-gradient(
+      ellipse 50% 40% at 0% 100%,
+      color-mix(in srgb, var(--color-violet) 10%, transparent),
+      transparent
+    ),
+    var(--color-white);
+}
+
+.card-shine {
+  position: relative;
+  overflow: hidden;
+}
+
+.card-shine::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    135deg,
+    color-mix(in srgb, var(--color-violet) 6%, transparent) 0%,
+    transparent 50%
+  );
+  pointer-events: none;
+}
+
 .section-padding {
   padding-top: var(--section-padding-y);
   padding-bottom: var(--section-padding-y);
